@@ -65,6 +65,7 @@
 				</<?php echo $heading_tag; ?>>
 				<div id="site-description"><?php bloginfo( 'description' ); ?></div>
 
+				
 			</div><!-- #branding -->
 
 			<div id="access" role="navigation">

@@ -1,33 +1,34 @@
 /*
-Theme Name: Child of Twenty Ten
-Theme URI: http://www.crondeau.com/emd
+Theme Name: Child
+Theme URI: http://www.yourdomainname.com/
 Description: Child Theme for Demo Purposes
 Author: Christine  Rondeau
-Author URI: http://crondeau.com
+Author URI: http://www.yourdomainname.com
 Template: twentyten
 Version: 0.1
 */
- 
+
 @import url("../twentyten/style.css");
 
-body,
-input,
-textarea {
-	color: #000;
+body, input, textarea {
+  color: #000;
+}
+a:link, a:visited {
+  color:#f71c9d;
+}
+a:active, a:hover {
+  color: #fb8fcf;
 }
 
-a:link {
-	color:#f71c9d;
+.entry-title a:active, .entry-title a:hover {
+  color: #f71c9d;
 }
-a:visited {
-	color:#f71c9d;
+.entry-meta a, .entry-utility a {
+   color: #f71c9d;
 }
-a:active,
-a:hover {
-	color: #fb8fcf;
+.entry-meta a:hover, .entry-utility a:hover {
+  color: #fb8fcf;
 }
-
-
 
 body {
 	background: #FFF;
@@ -37,9 +38,8 @@ body {
 #wrapper {
 	margin: 0 auto; padding: 0;
 	width: 960px;
-	
-
 }
+
 /* Styles for header area 
 -----------------------------------*/
 #header {
@@ -49,10 +49,8 @@ body {
 #branding {padding: 20px 0;}
 
 #site-title a {
-	color: #000;
 	font-weight:normal;
 }
-
 
 /* =Menu
 -------------------------------------------------------------- */
@@ -119,10 +117,10 @@ div.menu {
 	border-top:3px solid #f71c9d;
 }
 
+#access ul li ul.children li a,
 #access ul li.current_page_ancestor ul li.current_page_item a,
 #access ul li.current_page_ancestor ul li a,
-#access ul li.current-menu-item ul li a {border-top:3px solid #000;} 
-
+#access ul li.current-menu-item ul li a {border-top:3px solid #000;}
 
 /* Main Layout 
 ---------------------------*/
@@ -150,6 +148,7 @@ div.menu {
 	overflow: hidden;
 	width: 195px;
 }
+
 /* Sticky post on home page
 ---------------------------------------*/
 .home .sticky {
@@ -159,28 +158,6 @@ div.menu {
 }
 .home .sticky .page-link a {background:#FFF; border:1px dotted #000;}
 .home .sticky .page-link a:hover {color:#f71c9d;}
-/* Sidebar 
----------------------------------------*/
-
-#main .widget-area ul {
-	margin-left: 0;
-	padding: 0;
-}
-.widget-title {
-	color: #000;
-	border-top:1px dotted #000;
-	border-bottom:1px dotted #000;
-	padding: 2px 10px;
-}
-
-#main .widget-area ul ul {
-	margin: 0 20px 0 25px;
-}
-
-.tagcloud {
-	padding: 5px 10px;
-}
-#calendar_wrap {padding:10px;}
 
 /* Main content area 
 -------------------------------------*/
@@ -211,6 +188,30 @@ div.menu {
 	color: #fb8fcf;
 }
 
+/* Sidebar 
+---------------------------------------*/
+
+#main .widget-area ul {
+	margin-left: 0;
+	padding: 0;
+}
+.widget-title {
+	color: #000;
+	border-top:1px dotted #000;
+	border-bottom:1px dotted #000;
+	padding: 2px 10px;
+}
+
+#main .widget-area ul ul {
+	margin: 0 20px 0 25px;
+}
+
+.tagcloud {
+	padding: 5px 10px;
+}
+#calendar_wrap {padding:10px;}
+
+
 /* Navigation to previous and next post
 -------------------------------------------------------------- */
 
@@ -233,10 +234,8 @@ div.menu {
 	color: #f71c9d;
 }
 
+
 /* Footer 
 ------------------------------------*/
 
 #colophon {width:960px;}
-
-
-

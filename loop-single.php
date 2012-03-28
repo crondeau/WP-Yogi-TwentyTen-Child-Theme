@@ -1,7 +1,7 @@
 <?php
 /**
  * The loop that displays a single post.
- * This is a modified version of the twentyten single file. I 've removed the previous and next link at the top.
+ * This is a modified version of the twentyten single file. I've removed the previous and next link at the top.
  */
 ?>
 
