@@ -11,30 +11,19 @@ Version: 0.1
 @import url("../twentyten/style.css");
 
 body, input, textarea {
-  color: #000;
+	color: #000;
 }
 a:link, a:visited {
-  color:#f71c9d;
+	color:#f71c9d;
 }
 a:active, a:hover {
-  color: #fb8fcf;
-}
-
-.entry-title a:active, .entry-title a:hover {
-  color: #f71c9d;
-}
-.entry-meta a, .entry-utility a {
-   color: #f71c9d;
-}
-.entry-meta a:hover, .entry-utility a:hover {
-  color: #fb8fcf;
+	color: #fb8fcf;
 }
 
 body {
 	background: #FFF;
 	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
-
 #wrapper {
 	margin: 0 auto; padding: 0;
 	width: 960px;
@@ -42,19 +31,19 @@ body {
 
 /* Styles for header area 
 -----------------------------------*/
-#header {
-	padding: 0;
+#header {	
 	border-top:5px solid #000;
+	padding: 0;
 }
-#branding {padding: 20px 0;}
-
+#branding {
+	padding: 20px 0;
+}
 #site-title a {
 	font-weight:normal;
 }
 
 /* =Menu
 -------------------------------------------------------------- */
-
 #access {
 	background: #000;
 	display: block;
@@ -65,13 +54,13 @@ body {
 #access .menu-header,
 div.menu {
 	font-size: 13px;
-	text-transform:uppercase;
 	margin: 0px;
+	text-transform:uppercase;	
 }
 #access a {
-	color: #fff;
-	line-height: 32px;
 	border-top:3px solid #000;
+	color: #fff;
+	line-height: 32px;	
 }
 #access ul ul {top: 32px;}
 #access ul ul li {min-width: 180px;}
@@ -81,10 +70,10 @@ div.menu {
 }
 #access ul li ul li a {
 	background: #000;
+	height: auto;
 	line-height: 1em;
 	padding: 10px;
-	width: 160px;
-	height: auto;
+	width: 160px;	
 }
 #access li:hover > a,
 #access ul ul :hover > a {
@@ -96,53 +85,55 @@ div.menu {
 }
 
 #access ul li a:hover {
-	background: #000;
-	color: #fff;
+	background: #000;	
 	border-top:3px solid #f71c9d;
+	color: #fff;
 }
 
 #access ul li ul li a:hover,
 #access ul li ul li ul li a:hover {
 	background: #FFF;
-	color: #000;
 	border-top:3px solid #FFF;
+	color: #000;	
 }
 
 #access ul li.current_page_item a,
 #access ul li.current_page_ancestor a,
 #access ul li.current-menu-ancestor  a,
 #access ul li.current-menu-item  a,
-#access ul li.current-menu-parent  a {
-	color: #fff;
+#access ul li.current-menu-parent  a {	
 	border-top:3px solid #f71c9d;
+	color: #fff;
 }
 
 #access ul li ul.children li a,
 #access ul li.current_page_ancestor ul li.current_page_item a,
 #access ul li.current_page_ancestor ul li a,
-#access ul li.current-menu-item ul li a {border-top:3px solid #000;}
+#access ul li.current-menu-item ul li a {
+	border-top:3px solid #000;
+}
 
 /* Main Layout 
 ---------------------------*/
 #main {
-	width:960px; padding:20px 0;
 	background:url(images/main_bg.gif) left repeat-y;
+	padding:20px 0;
+	width:960px; 	
 }
-
 #container {
 	float: left;
 	margin: 0; padding:0 10px 0 10px;
 	width: 550px;
 }
-#content {margin:0 20px;}
-
+#content {
+	margin:0 20px;
+}
 #primary{
 	float: left;
 	overflow: hidden;
-	width: 195px;
 	padding: 0;
+	width: 195px;	
 }
-
 #secondary {
 	float: right;
 	overflow: hidden;
@@ -156,29 +147,40 @@ div.menu {
 	border-top: 0px;
 	margin: 0px; padding: 20px 0;
 }
-.home .sticky .page-link a {background:#FFF; border:1px dotted #000;}
-.home .sticky .page-link a:hover {color:#f71c9d;}
+.home .sticky .page-link a {
+	background:#FFF; 
+	border:1px dotted #000;
+}
+.home .sticky .page-link a:hover {
+	color:#f71c9d;
+}
 
 /* Main content area 
 -------------------------------------*/
 #content .entry-title {
+	background:#000;
 	color: #FFF;
 	font-size: 21px;
 	font-weight: bold;
 	line-height: 1.3em;
-	margin: 0 0 0 -30px; padding: 2px 20px 2px 30px;
-	background:#000;
+	margin: 0 0 0 -30px; padding: 2px 20px 2px 30px;	
+}
+.page-title a:link,
+.page-title a:visited {
+	color: #f71c9d;
+}
+.page-title a:active,
+.page-title a:hover {
+	color: #fb8fcf;
 }
 .entry-title a:link,
 .entry-title a:visited {
 	color: #FFF;
-	text-decoration: none;
 }
 .entry-title a:active,
 .entry-title a:hover {
 	color: #f71c9d;
 }
-
 .entry-meta a,
 .entry-utility a {
 	color: #f71c9d;
@@ -190,38 +192,33 @@ div.menu {
 
 /* Sidebar 
 ---------------------------------------*/
-
 #main .widget-area ul {
 	margin-left: 0;
 	padding: 0;
 }
-.widget-title {
-	color: #000;
+.widget-title {	
 	border-top:1px dotted #000;
 	border-bottom:1px dotted #000;
+	color: #000;
 	padding: 2px 10px;
 }
-
 #main .widget-area ul ul {
 	margin: 0 20px 0 25px;
 }
-
 .tagcloud {
 	padding: 5px 10px;
 }
 #calendar_wrap {padding:10px;}
 
-
 /* Navigation to previous and next post
 -------------------------------------------------------------- */
-
 .navigation {
+	border-top:1px dotted #000;
+	border-bottom:1px dotted #000;
 	color: #000;
 	font-size: 12px;
 	line-height: 18px;
-	overflow: hidden;
-	border-top:1px dotted #000;
-	border-bottom:1px dotted #000;
+	overflow: hidden;	
 	padding:2px;
 }
 .navigation a:link,
@@ -234,8 +231,8 @@ div.menu {
 	color: #f71c9d;
 }
 
-
 /* Footer 
 ------------------------------------*/
-
-#colophon {width:960px;}
+#colophon {
+	width:960px;
+}
