@@ -6,7 +6,7 @@ http://www.wpyogi.com/2011/04/step-by-step-guide-to-making-a-twentyten-child-the
 
 
 You can check out a demo of the theme here.
-http://twentyten.wpyogi.com/
+http://wpyogi.com/twentyten-child/
  
 
 
